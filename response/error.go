@@ -56,3 +56,7 @@ func Forbidden(msg string) Response {
 func BadRequest(msg string) Response {
 	return erros(msg, http.StatusBadRequest)
 }
+
+func Conflict(msg string) Response {
+	return erros(msg, http.StatusConflict)
+}
