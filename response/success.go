@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/DuvanM9/gocourse_meta/meta"
+	"github.com/DuvanM9/go_meta_paginator/meta"
 )
 
 type SuccesResponse struct {
